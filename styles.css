@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    background-color: royalblue;
 }
 
 .header{
@@ -37,11 +38,7 @@ img{
     height: 200px;
 }
 
-.blue-part{
-    background-color: royalblue;
-    padding: 50px;
-    margin: 0px;
-}
+
 
 .image-description{
     display: flex;
@@ -50,6 +47,7 @@ img{
     text-align: center;
     justify-content: space-between;
     flex: 1;
+    background-color: white;
 }
 
 .image-description img{
@@ -60,4 +58,17 @@ img{
 .info-images{
     display: flex;
     
+    
+}
+
+.image-description p{
+    width: 100px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 100px;
 }
